@@ -1,0 +1,12 @@
+[package]
+name = "syrusakbary/nextjs-starter-840"
+version = "0.2.0"
+description = "Next.js static Website Wasmer starter package"
+readme = "README.md"
+repository = "https://github.com/syrusakbary/nextjs-starter-840"
+
+[dependencies]
+"wasmer/static-web-server" = "^1"
+
+[fs]
+public = "out"
